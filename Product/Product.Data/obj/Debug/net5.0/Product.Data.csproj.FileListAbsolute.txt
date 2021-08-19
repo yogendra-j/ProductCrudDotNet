@@ -1,0 +1,15 @@
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\Product.Data.deps.json
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\Product.Data.runtimeconfig.json
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\Product.Data.runtimeconfig.dev.json
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\Product.Data.dll
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\ref\Product.Data.dll
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\bin\Debug\net5.0\Product.Data.pdb
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.csproj.AssemblyReference.cache
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.AssemblyInfoInputs.cache
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.AssemblyInfo.cs
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.csproj.CoreCompileInputs.cache
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.dll
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\ref\Product.Data.dll
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.pdb
+C:\Users\YogendraJaiswal\Downloads\Training\.NET Core\Product\Product\Product.Data\obj\Debug\net5.0\Product.Data.genruntimeconfig.cache

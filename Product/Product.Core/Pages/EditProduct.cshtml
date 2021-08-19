@@ -1,0 +1,79 @@
+﻿@page "{Id:int?}"
+@model Product.Core.Pages.EditProductModel
+@{
+    ViewData["Title"] = @Model.PageName;
+}
+
+@if (Model.PageName == "Edit Product")
+{<h2>Editing @Model.CurProduct.Name</h2>;
+}
+else
+{
+<h2>Add Product</h2>;
+
+}
+
+<form method="post" class="container">
+
+    <input type="hidden" asp-for="CurProduct.Id" />
+
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="CurProduct.Code">Product Code <sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.Code" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.Code"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.Manufacturer">Product Manufacturer<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.Manufacturer" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.Manufacturer"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.SerialNumber">Serial Number<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.SerialNumber" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.SerialNumber"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.RetailPrice">Retail Price<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.RetailPrice" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.RetailPrice"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.CreatedOn">Created On<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.CreatedOn" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.CreatedOn"></span>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-group">
+                <label asp-for="CurProduct.Name">Product Name<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.Name" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.ShippingNumber">Shipping Number</label>
+                <input asp-for="CurProduct.ShippingNumber" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.ShippingNumber"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.BatchNumber">Batch Number</label>
+                <input asp-for="CurProduct.BatchNumber" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.BatchNumber"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.Quantity">Quantity<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.Quantity" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.Quantity"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurProduct.ModifiedOn">Modified On<sup style="color:red; font-size:0.8em">*</sup></label>
+                <input asp-for="CurProduct.ModifiedOn" class="form-control" />
+                <span class="text-danger" asp-validation-for="CurProduct.ModifiedOn"></span>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
